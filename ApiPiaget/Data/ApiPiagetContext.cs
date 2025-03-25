@@ -17,5 +17,6 @@ namespace ApiPiaget.Data
         public DbSet<ApiPiaget.Models.Aluno> Aluno { get; set; } = default!;
         public DbSet<ApiPiaget.Models.Professor> Professor { get; set; } = default!;
         public DbSet<ApiPiaget.Models.Escola> Escola { get; set; } = default!;
+        public DbSet<ApiPiaget.Models.Gestao> Gestao { get; set; } = default!;
     }
 }
